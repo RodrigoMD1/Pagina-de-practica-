@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Merriweather', serif;
+    
+}
+body{
+    min-height: 1000px;
+   background-color: #F4F4F4;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background:url(../img/img2-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   align-content: center;
+
+}
+
+
+
+.banner{
+    position: static;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2{
+    color:#EADCA6;
+    font-size: 120px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+.banner h2 span{
+    color: #F4F4F4 ;
+}
+
+
+
+// seccion menu 
+
+
+nav{
+    position: static;
+    width: 100%;
+    height: 90px;
+    z-index: 1; 
+}
+nav ul{
+    position: static;
+    margin: 0;
+    padding-right: 42px;
+    text-align: center;
+    background-color:#F4F4F4;
+}
+
+nav ul li{
+    position: relative;
+    display: inline-block;
+    padding: 10px;  
+}
+
+nav ul li a{
+    position: relative;
+    font-size: 20px;
+    padding: 7px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #E2C275;
+    line-height: 60px;
+}
+
+
+
+// seccion de productos 
+
+.workBx{
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+.workBx .brand{
+    
+    position: static;
+    min-height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.workBx .brand a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+.workBx .brand:hover a{
+    color: #F4F4F4;
+}
+
+
+
+#producto01{
+    background: url(../img/img-producto01.jpg);
+    background-position: center;
+    background-size: 235px;
+    background-repeat: no-repeat;
+    
+}
+
+#producto02{
+    background: url(../img/img-producto02.jpg);
+    background-size: 238px;
+    background-repeat: no-repeat;
+}
+#producto03{
+    background: url(../img/img-producto03.jpg);
+    background-size: 238px;
+    background-repeat: no-repeat;
+}
+#producto04{
+    background: url(../img/img-producto04.jpg);
+    background-size: 238px;
+    background-repeat: no-repeat;
+}
+#producto05{
+    background: url(../img/img-producto05.jpg);
+    background-size: 235px;
+    background-repeat: no-repeat;
+}
+#producto06{
+    background: url(../img/img-producto06.jpg);
+    background-size: 235px;
+    background-repeat: no-repeat;
+}
+#producto07{
+    background: url(../img/img-producto07.jpg);
+    background-size: 235px;
+    background-repeat: no-repeat;
+}
